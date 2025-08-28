@@ -1,7 +1,62 @@
-.daruppe{
-    background-color: black;
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-.daruppe h1{
+.daruppe{
+    display: flex;
+    background-color: black;
     color: #ffffff;
+    width: 100%;
+    height: 10vw;
+    align-items: center;
+    justify-content: space-between;
+    border-color: #ffffff;
+    border-width: 0px;
+    border-bottom: 5px;
+    border-style: solid;
+
+}
+
+.daruppevanster{
+    margin-left: 2%;
+}
+
+.daruppehoger{
+    margin-right: 2%;
+
+}
+
+.daruppehoger li{
+    list-style: none;
+
+}
+
+.daruppehoger li a{
+    padding: 15px;
+}
+
+.deltva{
+    display: flex;
+
+}
+
+.tillvanster{
+    display: flex;
+    width: 50%;
+    background-color: black;  
+    height: 40vw;
+}
+
+.tillhoger{
+    display: flex;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.bilden{
+    border-radius: 100000px;
 }
