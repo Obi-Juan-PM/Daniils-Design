@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-boxs;
+}
+
+/* bakgrundsgrejer */
+
 body{
     padding: 0px;
     margin: 0px;
@@ -5,6 +11,8 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+/* design kring överdelen */
 
 .daruppe{
     display: flex;
@@ -39,16 +47,25 @@ body{
     padding: 15px;
 }
 
+/* underdelen */
+
 .deltva{
     display: flex;
 
 }
+
+/* bildens div */
 
 .tillvanster{
     display: flex;
     width: 50%;
     background-color: black;  
     height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 0px;
+    margin: 0px;
 }
 
 .tillhoger{
@@ -57,6 +74,36 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-.bilden{
+/* gör bilden rund */
+
+#bilden{
     border-radius: 100000px;
+}
+
+/* texten där nere */
+/* (inehåller lite spaghetti-kod) */
+
+.tillhoger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+}
+
+.textuppe{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: flex-end;
+}
+
+.textnere{
+    
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: flex-start;
 }
